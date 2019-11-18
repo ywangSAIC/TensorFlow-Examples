@@ -18,10 +18,10 @@ from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("/tmp/data/", one_hot=True)
 
 import tensorflow as tf
-
+from tensorflow.python.client import timeline
 # Parameters
-learning_rate = 0.1
-num_steps = 500
+learning_rate = 0.01
+num_steps = 2500
 batch_size = 128
 display_step = 100
 
@@ -79,7 +79,9 @@ init = tf.global_variables_initializer()
 with tf.Session() as sess:
 
     # Run the initializer
-    sess.run(init)
+    run_options = tf.RunOptions(trace_level=tf.RunOptions.FULL_TRACE)
+    run_metadata = tf.RunMetadata()
+    sess.run(init, options = run_options, run_metadata=run_metadata)
 
     for step in range(1, num_steps+1):
         batch_x, batch_y = mnist.train.next_batch(batch_size)
@@ -95,6 +97,10 @@ with tf.Session() as sess:
 
     print("Optimization Finished!")
 
+    tl = timeline.Timeline(run_metadata.step_stats)
+    ctf = tl.generate_chrome_trace_format()
+    with open('nn_raw_timeline.json', 'w') as f:
+        f.write(ctf)
     # Calculate accuracy for MNIST test images
     print("Testing Accuracy:", \
         sess.run(accuracy, feed_dict={X: mnist.test.images,

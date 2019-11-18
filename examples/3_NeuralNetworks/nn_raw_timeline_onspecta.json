@@ -1,0 +1,3252 @@
+{
+    "traceEvents": [
+        {
+            "name": "process_name",
+            "pid": 0,
+            "ph": "M",
+            "args": {
+                "name": "Allocators"
+            }
+        },
+        {
+            "name": "process_name",
+            "pid": 1,
+            "ph": "M",
+            "args": {
+                "name": "/host:CPU Compute"
+            }
+        },
+        {
+            "name": "process_name",
+            "pid": 2,
+            "ph": "M",
+            "args": {
+                "name": "/host:CPU Tensors"
+            }
+        },
+        {
+            "name": "process_name",
+            "pid": 3,
+            "ph": "M",
+            "args": {
+                "name": "/job:localhost/replica:0/task:0/device:CPU:0 Compute"
+            }
+        },
+        {
+            "name": "process_name",
+            "pid": 4,
+            "ph": "M",
+            "args": {
+                "name": "/job:localhost/replica:0/task:0/device:CPU:0 Tensors"
+            }
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701855485,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "random_normal/RandomStandardNormal:RandomStandardNormal"
+            },
+            "pid": 1,
+            "dur": 459
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701855485,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "random_normal/RandomStandardNormal:RandomStandardNormal"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701855965,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "random_normal/mul:Snapshot"
+            },
+            "pid": 1,
+            "dur": 1
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701855965,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "random_normal/mul:Snapshot"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701855970,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "random_normal_4/RandomStandardNormal:RandomStandardNormal"
+            },
+            "pid": 1,
+            "dur": 7
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701855970,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "random_normal_4/RandomStandardNormal:RandomStandardNormal"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701855983,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "random_normal_4/mul:Snapshot"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701855986,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "random_normal_3/RandomStandardNormal:RandomStandardNormal"
+            },
+            "pid": 1,
+            "dur": 6
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701855986,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "random_normal_3/RandomStandardNormal:RandomStandardNormal"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701855996,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "random_normal_3/mul:Snapshot"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701855999,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "random_normal_2/RandomStandardNormal:RandomStandardNormal"
+            },
+            "pid": 1,
+            "dur": 48
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701855999,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "random_normal_2/RandomStandardNormal:RandomStandardNormal"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856050,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "random_normal_2/mul:Snapshot"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856054,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "random_normal_5/RandomStandardNormal:RandomStandardNormal"
+            },
+            "pid": 1,
+            "dur": 1
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701856054,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "random_normal_5/RandomStandardNormal:RandomStandardNormal"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856058,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "random_normal_5/mul:Snapshot"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856061,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "random_normal_1/RandomStandardNormal:RandomStandardNormal"
+            },
+            "pid": 1,
+            "dur": 170
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701856061,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "random_normal_1/RandomStandardNormal:RandomStandardNormal"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856241,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "random_normal_1/mul:Snapshot"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856244,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_4:VariableV2"
+            },
+            "pid": 1,
+            "dur": 12
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701856244,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_4:VariableV2"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856260,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_4/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 4
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701856260,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_4/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856270,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_2/Adam:VariableV2"
+            },
+            "pid": 1,
+            "dur": 2
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701856270,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_2/Adam:VariableV2"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856276,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_2/Adam/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 17
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701856276,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_2/Adam/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856298,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable/Adam:VariableV2"
+            },
+            "pid": 1,
+            "dur": 2
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701856298,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable/Adam:VariableV2"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856303,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable/Adam/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 157
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701856303,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable/Adam/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856468,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_3/Adam:VariableV2"
+            },
+            "pid": 1,
+            "dur": 2
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701856468,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_3/Adam:VariableV2"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856474,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_3/Adam/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 4
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701856474,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_3/Adam/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856482,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_1:VariableV2"
+            },
+            "pid": 1,
+            "dur": 1
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701856482,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_1:VariableV2"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856487,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_1/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856491,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_1/Adam_1:VariableV2"
+            },
+            "pid": 1,
+            "dur": 3
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701856491,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_1/Adam_1:VariableV2"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856497,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_1/Adam_1/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 92
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701856497,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_1/Adam_1/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856595,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "beta2_power:VariableV2"
+            },
+            "pid": 1,
+            "dur": 2
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701856595,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "beta2_power:VariableV2"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856600,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "beta2_power/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 1
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701856600,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "beta2_power/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856604,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_3:VariableV2"
+            },
+            "pid": 1,
+            "dur": 3
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701856604,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_3:VariableV2"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856610,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_3/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856613,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable:VariableV2"
+            },
+            "pid": 1,
+            "dur": 1
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701856613,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable:VariableV2"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856616,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856619,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_1/Adam:VariableV2"
+            },
+            "pid": 1,
+            "dur": 2
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701856619,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_1/Adam:VariableV2"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856624,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_1/Adam/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 90
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701856624,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_1/Adam/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856721,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable/Adam_1:VariableV2"
+            },
+            "pid": 1,
+            "dur": 2
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701856721,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable/Adam_1:VariableV2"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856726,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable/Adam_1/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 187
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701856726,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable/Adam_1/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856926,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_5/Adam_1:VariableV2"
+            },
+            "pid": 1,
+            "dur": 3
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701856926,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_5/Adam_1:VariableV2"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856932,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_5/Adam_1/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 2
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701856932,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_5/Adam_1/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856939,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_2:VariableV2"
+            },
+            "pid": 1,
+            "dur": 2
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701856939,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_2:VariableV2"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856948,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_2/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856952,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_4/Adam_1:VariableV2"
+            },
+            "pid": 1,
+            "dur": 2
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701856952,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_4/Adam_1:VariableV2"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856956,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_4/Adam_1/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 1
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701856956,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_4/Adam_1/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856963,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_5:VariableV2"
+            },
+            "pid": 1,
+            "dur": 2
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701856963,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_5:VariableV2"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856967,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_5/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856969,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "beta1_power:VariableV2"
+            },
+            "pid": 1,
+            "dur": 1
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701856969,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "beta1_power:VariableV2"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856973,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "beta1_power/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 1
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701856973,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "beta1_power/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856980,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_3/Adam_1:VariableV2"
+            },
+            "pid": 1,
+            "dur": 2
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701856980,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_3/Adam_1:VariableV2"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856984,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_3/Adam_1/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 1
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701856984,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_3/Adam_1/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856990,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_4/Adam:VariableV2"
+            },
+            "pid": 1,
+            "dur": 2
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701856990,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_4/Adam:VariableV2"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856994,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_4/Adam/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 1
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701856994,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_4/Adam/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701856999,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_2/Adam_1:VariableV2"
+            },
+            "pid": 1,
+            "dur": 2
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701856999,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_2/Adam_1:VariableV2"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701857005,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_2/Adam_1/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 11
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701857005,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_2/Adam_1/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701857021,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_5/Adam:VariableV2"
+            },
+            "pid": 1,
+            "dur": 2
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701857021,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_5/Adam:VariableV2"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+            "tid": 0,
+            "ts": 1574120701857026,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_5/Adam/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 4
+        },
+        {
+            "name": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false_inside",
+            "tid": 0,
+            "ts": 1574120701857026,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "id=1,device=/job:localhost/replica:0/task:0/device:CPU:0,async=false",
+                "name": "Variable_5/Adam/Assign:Assign"
+            },
+            "pid": 1,
+            "dur": 0
+        },
+        {
+            "name": "NoOp",
+            "tid": 0,
+            "ts": 1574120701855419,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "NoOp",
+                "name": "_SOURCE"
+            },
+            "pid": 3,
+            "dur": 9
+        },
+        {
+            "name": "NoOp_inside",
+            "tid": 0,
+            "ts": 1574120701855420,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "NoOp",
+                "name": "_SOURCE"
+            },
+            "pid": 3,
+            "dur": 0
+        },
+        {
+            "name": "Const",
+            "tid": 0,
+            "ts": 1574120701855439,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Const",
+                "name": "random_normal_1/shape"
+            },
+            "pid": 3,
+            "dur": 5
+        },
+        {
+            "name": "Const_inside",
+            "tid": 0,
+            "ts": 1574120701855439,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Const",
+                "name": "random_normal_1/shape"
+            },
+            "pid": 3,
+            "dur": 3
+        },
+        {
+            "name": "Const",
+            "tid": 0,
+            "ts": 1574120701855446,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Const",
+                "name": "Variable/Adam/Initializer/zeros"
+            },
+            "pid": 3,
+            "dur": 2
+        },
+        {
+            "name": "Const_inside",
+            "tid": 0,
+            "ts": 1574120701855446,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Const",
+                "name": "Variable/Adam/Initializer/zeros"
+            },
+            "pid": 3,
+            "dur": 1
+        },
+        {
+            "name": "Const",
+            "tid": 0,
+            "ts": 1574120701855449,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Const",
+                "name": "Variable_1/Adam/Initializer/zeros"
+            },
+            "pid": 3,
+            "dur": 2
+        },
+        {
+            "name": "Const_inside",
+            "tid": 0,
+            "ts": 1574120701855449,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Const",
+                "name": "Variable_1/Adam/Initializer/zeros"
+            },
+            "pid": 3,
+            "dur": 1
+        },
+        {
+            "name": "Const",
+            "tid": 0,
+            "ts": 1574120701855452,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Const",
+                "name": "random_normal_5/shape"
+            },
+            "pid": 3,
+            "dur": 2
+        },
+        {
+            "name": "Const_inside",
+            "tid": 0,
+            "ts": 1574120701855452,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Const",
+                "name": "random_normal_5/shape"
+            },
+            "pid": 3,
+            "dur": 1
+        },
+        {
+            "name": "Const",
+            "tid": 0,
+            "ts": 1574120701855455,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Const",
+                "name": "beta1_power/initial_value"
+            },
+            "pid": 3,
+            "dur": 2
+        },
+        {
+            "name": "Const_inside",
+            "tid": 0,
+            "ts": 1574120701855455,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Const",
+                "name": "beta1_power/initial_value"
+            },
+            "pid": 3,
+            "dur": 1
+        },
+        {
+            "name": "Const",
+            "tid": 0,
+            "ts": 1574120701855458,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Const",
+                "name": "random_normal_2/shape"
+            },
+            "pid": 3,
+            "dur": 5
+        },
+        {
+            "name": "Const_inside",
+            "tid": 0,
+            "ts": 1574120701855458,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Const",
+                "name": "random_normal_2/shape"
+            },
+            "pid": 3,
+            "dur": 3
+        },
+        {
+            "name": "Const",
+            "tid": 0,
+            "ts": 1574120701855464,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Const",
+                "name": "beta2_power/initial_value"
+            },
+            "pid": 3,
+            "dur": 2
+        },
+        {
+            "name": "Const_inside",
+            "tid": 0,
+            "ts": 1574120701855464,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Const",
+                "name": "beta2_power/initial_value"
+            },
+            "pid": 3,
+            "dur": 1
+        },
+        {
+            "name": "Const",
+            "tid": 1,
+            "ts": 1574120701855466,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Const",
+                "name": "Variable_5/Adam_1/Initializer/zeros"
+            },
+            "pid": 3,
+            "dur": 2
+        },
+        {
+            "name": "Const_inside",
+            "tid": 1,
+            "ts": 1574120701855466,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Const",
+                "name": "Variable_5/Adam_1/Initializer/zeros"
+            },
+            "pid": 3,
+            "dur": 1
+        },
+        {
+            "name": "Const",
+            "tid": 0,
+            "ts": 1574120701855469,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Const",
+                "name": "random_normal_3/shape"
+            },
+            "pid": 3,
+            "dur": 1
+        },
+        {
+            "name": "Const_inside",
+            "tid": 0,
+            "ts": 1574120701855469,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Const",
+                "name": "random_normal_3/shape"
+            },
+            "pid": 3,
+            "dur": 0
+        },
+        {
+            "name": "Const",
+            "tid": 0,
+            "ts": 1574120701855472,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Const",
+                "name": "Variable_3/Adam/Initializer/zeros"
+            },
+            "pid": 3,
+            "dur": 2
+        },
+        {
+            "name": "Const_inside",
+            "tid": 0,
+            "ts": 1574120701855473,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Const",
+                "name": "Variable_3/Adam/Initializer/zeros"
+            },
+            "pid": 3,
+            "dur": 0
+        },
+        {
+            "name": "Const",
+            "tid": 0,
+            "ts": 1574120701855475,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Const",
+                "name": "Variable_4/Adam/Initializer/zeros"
+            },
+            "pid": 3,
+            "dur": 1
+        },
+        {
+            "name": "Const_inside",
+            "tid": 0,
+            "ts": 1574120701855475,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Const",
+                "name": "Variable_4/Adam/Initializer/zeros"
+            },
+            "pid": 3,
+            "dur": 0
+        },
+        {
+            "name": "Const",
+            "tid": 0,
+            "ts": 1574120701855477,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Const",
+                "name": "random_normal/shape"
+            },
+            "pid": 3,
+            "dur": 2
+        },
+        {
+            "name": "Const_inside",
+            "tid": 0,
+            "ts": 1574120701855477,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Const",
+                "name": "random_normal/shape"
+            },
+            "pid": 3,
+            "dur": 1
+        },
+        {
+            "name": "Const",
+            "tid": 0,
+            "ts": 1574120701855480,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Const",
+                "name": "Variable_2/Adam_1/Initializer/zeros"
+            },
+            "pid": 3,
+            "dur": 2
+        },
+        {
+            "name": "Const_inside",
+            "tid": 0,
+            "ts": 1574120701855480,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Const",
+                "name": "Variable_2/Adam_1/Initializer/zeros"
+            },
+            "pid": 3,
+            "dur": 0
+        },
+        {
+            "name": "RandomStandardNormal",
+            "tid": 0,
+            "ts": 1574120701855484,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "RandomStandardNormal",
+                "name": "random_normal/RandomStandardNormal",
+                "input0": "random_normal/shape"
+            },
+            "pid": 3,
+            "dur": 473
+        },
+        {
+            "name": "RandomStandardNormal_inside",
+            "tid": 0,
+            "ts": 1574120701855484,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "RandomStandardNormal",
+                "name": "random_normal/RandomStandardNormal",
+                "input0": "random_normal/shape"
+            },
+            "pid": 3,
+            "dur": 469
+        },
+        {
+            "name": "Snapshot",
+            "tid": 0,
+            "ts": 1574120701855964,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Snapshot",
+                "name": "random_normal/mul",
+                "input0": "random_normal/RandomStandardNormal"
+            },
+            "pid": 3,
+            "dur": 4
+        },
+        {
+            "name": "Snapshot_inside",
+            "tid": 0,
+            "ts": 1574120701855965,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Snapshot",
+                "name": "random_normal/mul",
+                "input0": "random_normal/RandomStandardNormal"
+            },
+            "pid": 3,
+            "dur": 1
+        },
+        {
+            "name": "RandomStandardNormal",
+            "tid": 0,
+            "ts": 1574120701855969,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "RandomStandardNormal",
+                "name": "random_normal_4/RandomStandardNormal",
+                "input0": "random_normal_3/shape"
+            },
+            "pid": 3,
+            "dur": 10
+        },
+        {
+            "name": "RandomStandardNormal_inside",
+            "tid": 0,
+            "ts": 1574120701855970,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "RandomStandardNormal",
+                "name": "random_normal_4/RandomStandardNormal",
+                "input0": "random_normal_3/shape"
+            },
+            "pid": 3,
+            "dur": 7
+        },
+        {
+            "name": "Snapshot",
+            "tid": 0,
+            "ts": 1574120701855983,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Snapshot",
+                "name": "random_normal_4/mul",
+                "input0": "random_normal_4/RandomStandardNormal"
+            },
+            "pid": 3,
+            "dur": 1
+        },
+        {
+            "name": "Snapshot_inside",
+            "tid": 0,
+            "ts": 1574120701855983,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Snapshot",
+                "name": "random_normal_4/mul",
+                "input0": "random_normal_4/RandomStandardNormal"
+            },
+            "pid": 3,
+            "dur": 0
+        },
+        {
+            "name": "RandomStandardNormal",
+            "tid": 0,
+            "ts": 1574120701855986,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "RandomStandardNormal",
+                "name": "random_normal_3/RandomStandardNormal",
+                "input0": "random_normal_3/shape"
+            },
+            "pid": 3,
+            "dur": 8
+        },
+        {
+            "name": "RandomStandardNormal_inside",
+            "tid": 0,
+            "ts": 1574120701855986,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "RandomStandardNormal",
+                "name": "random_normal_3/RandomStandardNormal",
+                "input0": "random_normal_3/shape"
+            },
+            "pid": 3,
+            "dur": 6
+        },
+        {
+            "name": "Snapshot",
+            "tid": 0,
+            "ts": 1574120701855996,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Snapshot",
+                "name": "random_normal_3/mul",
+                "input0": "random_normal_3/RandomStandardNormal"
+            },
+            "pid": 3,
+            "dur": 1
+        },
+        {
+            "name": "Snapshot_inside",
+            "tid": 0,
+            "ts": 1574120701855996,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Snapshot",
+                "name": "random_normal_3/mul",
+                "input0": "random_normal_3/RandomStandardNormal"
+            },
+            "pid": 3,
+            "dur": 0
+        },
+        {
+            "name": "RandomStandardNormal",
+            "tid": 0,
+            "ts": 1574120701855998,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "RandomStandardNormal",
+                "name": "random_normal_2/RandomStandardNormal",
+                "input0": "random_normal_2/shape"
+            },
+            "pid": 3,
+            "dur": 51
+        },
+        {
+            "name": "RandomStandardNormal_inside",
+            "tid": 0,
+            "ts": 1574120701855998,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "RandomStandardNormal",
+                "name": "random_normal_2/RandomStandardNormal",
+                "input0": "random_normal_2/shape"
+            },
+            "pid": 3,
+            "dur": 50
+        },
+        {
+            "name": "Snapshot",
+            "tid": 0,
+            "ts": 1574120701856050,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Snapshot",
+                "name": "random_normal_2/mul",
+                "input0": "random_normal_2/RandomStandardNormal"
+            },
+            "pid": 3,
+            "dur": 2
+        },
+        {
+            "name": "Snapshot_inside",
+            "tid": 0,
+            "ts": 1574120701856050,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Snapshot",
+                "name": "random_normal_2/mul",
+                "input0": "random_normal_2/RandomStandardNormal"
+            },
+            "pid": 3,
+            "dur": 1
+        },
+        {
+            "name": "RandomStandardNormal",
+            "tid": 0,
+            "ts": 1574120701856054,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "RandomStandardNormal",
+                "name": "random_normal_5/RandomStandardNormal",
+                "input0": "random_normal_5/shape"
+            },
+            "pid": 3,
+            "dur": 3
+        },
+        {
+            "name": "RandomStandardNormal_inside",
+            "tid": 0,
+            "ts": 1574120701856054,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "RandomStandardNormal",
+                "name": "random_normal_5/RandomStandardNormal",
+                "input0": "random_normal_5/shape"
+            },
+            "pid": 3,
+            "dur": 2
+        },
+        {
+            "name": "Snapshot",
+            "tid": 0,
+            "ts": 1574120701856058,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Snapshot",
+                "name": "random_normal_5/mul",
+                "input0": "random_normal_5/RandomStandardNormal"
+            },
+            "pid": 3,
+            "dur": 1
+        },
+        {
+            "name": "Snapshot_inside",
+            "tid": 0,
+            "ts": 1574120701856058,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Snapshot",
+                "name": "random_normal_5/mul",
+                "input0": "random_normal_5/RandomStandardNormal"
+            },
+            "pid": 3,
+            "dur": 0
+        },
+        {
+            "name": "RandomStandardNormal",
+            "tid": 0,
+            "ts": 1574120701856060,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "RandomStandardNormal",
+                "name": "random_normal_1/RandomStandardNormal",
+                "input0": "random_normal_1/shape"
+            },
+            "pid": 3,
+            "dur": 177
+        },
+        {
+            "name": "RandomStandardNormal_inside",
+            "tid": 0,
+            "ts": 1574120701856060,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "RandomStandardNormal",
+                "name": "random_normal_1/RandomStandardNormal",
+                "input0": "random_normal_1/shape"
+            },
+            "pid": 3,
+            "dur": 171
+        },
+        {
+            "name": "Snapshot",
+            "tid": 0,
+            "ts": 1574120701856240,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Snapshot",
+                "name": "random_normal_1/mul",
+                "input0": "random_normal_1/RandomStandardNormal"
+            },
+            "pid": 3,
+            "dur": 2
+        },
+        {
+            "name": "Snapshot_inside",
+            "tid": 0,
+            "ts": 1574120701856240,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Snapshot",
+                "name": "random_normal_1/mul",
+                "input0": "random_normal_1/RandomStandardNormal"
+            },
+            "pid": 3,
+            "dur": 1
+        },
+        {
+            "name": "VariableV2",
+            "tid": 0,
+            "ts": 1574120701856244,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "Variable_4"
+            },
+            "pid": 3,
+            "dur": 13
+        },
+        {
+            "name": "VariableV2_inside",
+            "tid": 0,
+            "ts": 1574120701856244,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "Variable_4"
+            },
+            "pid": 3,
+            "dur": 12
+        },
+        {
+            "name": "Assign",
+            "tid": 0,
+            "ts": 1574120701856259,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable_4/Assign",
+                "input1": "random_normal_4/mul",
+                "input0": "Variable_4"
+            },
+            "pid": 3,
+            "dur": 8
+        },
+        {
+            "name": "Assign_inside",
+            "tid": 0,
+            "ts": 1574120701856259,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable_4/Assign",
+                "input1": "random_normal_4/mul",
+                "input0": "Variable_4"
+            },
+            "pid": 3,
+            "dur": 5
+        },
+        {
+            "name": "VariableV2",
+            "tid": 0,
+            "ts": 1574120701856270,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "Variable_2/Adam"
+            },
+            "pid": 3,
+            "dur": 5
+        },
+        {
+            "name": "VariableV2_inside",
+            "tid": 0,
+            "ts": 1574120701856270,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "Variable_2/Adam"
+            },
+            "pid": 3,
+            "dur": 4
+        },
+        {
+            "name": "Assign",
+            "tid": 0,
+            "ts": 1574120701856276,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable_2/Adam/Assign",
+                "input1": "Variable_2/Adam_1/Initializer/zeros",
+                "input0": "Variable_2/Adam"
+            },
+            "pid": 3,
+            "dur": 20
+        },
+        {
+            "name": "Assign_inside",
+            "tid": 0,
+            "ts": 1574120701856276,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable_2/Adam/Assign",
+                "input1": "Variable_2/Adam_1/Initializer/zeros",
+                "input0": "Variable_2/Adam"
+            },
+            "pid": 3,
+            "dur": 18
+        },
+        {
+            "name": "VariableV2",
+            "tid": 0,
+            "ts": 1574120701856298,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "Variable/Adam"
+            },
+            "pid": 3,
+            "dur": 4
+        },
+        {
+            "name": "VariableV2_inside",
+            "tid": 0,
+            "ts": 1574120701856298,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "Variable/Adam"
+            },
+            "pid": 3,
+            "dur": 3
+        },
+        {
+            "name": "Assign",
+            "tid": 0,
+            "ts": 1574120701856303,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable/Adam/Assign",
+                "input1": "Variable/Adam/Initializer/zeros",
+                "input0": "Variable/Adam"
+            },
+            "pid": 3,
+            "dur": 161
+        },
+        {
+            "name": "Assign_inside",
+            "tid": 0,
+            "ts": 1574120701856303,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable/Adam/Assign",
+                "input1": "Variable/Adam/Initializer/zeros",
+                "input0": "Variable/Adam"
+            },
+            "pid": 3,
+            "dur": 158
+        },
+        {
+            "name": "VariableV2",
+            "tid": 0,
+            "ts": 1574120701856467,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "Variable_3/Adam"
+            },
+            "pid": 3,
+            "dur": 5
+        },
+        {
+            "name": "VariableV2_inside",
+            "tid": 0,
+            "ts": 1574120701856468,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "Variable_3/Adam"
+            },
+            "pid": 3,
+            "dur": 3
+        },
+        {
+            "name": "Assign",
+            "tid": 0,
+            "ts": 1574120701856473,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable_3/Adam/Assign",
+                "input1": "Variable_3/Adam/Initializer/zeros",
+                "input0": "Variable_3/Adam"
+            },
+            "pid": 3,
+            "dur": 7
+        },
+        {
+            "name": "Assign_inside",
+            "tid": 0,
+            "ts": 1574120701856473,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable_3/Adam/Assign",
+                "input1": "Variable_3/Adam/Initializer/zeros",
+                "input0": "Variable_3/Adam"
+            },
+            "pid": 3,
+            "dur": 6
+        },
+        {
+            "name": "VariableV2",
+            "tid": 0,
+            "ts": 1574120701856481,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "Variable_1"
+            },
+            "pid": 3,
+            "dur": 4
+        },
+        {
+            "name": "VariableV2_inside",
+            "tid": 0,
+            "ts": 1574120701856482,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "Variable_1"
+            },
+            "pid": 3,
+            "dur": 2
+        },
+        {
+            "name": "Assign",
+            "tid": 0,
+            "ts": 1574120701856486,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable_1/Assign",
+                "input1": "random_normal_1/mul",
+                "input0": "Variable_1"
+            },
+            "pid": 3,
+            "dur": 3
+        },
+        {
+            "name": "Assign_inside",
+            "tid": 0,
+            "ts": 1574120701856486,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable_1/Assign",
+                "input1": "random_normal_1/mul",
+                "input0": "Variable_1"
+            },
+            "pid": 3,
+            "dur": 1
+        },
+        {
+            "name": "VariableV2",
+            "tid": 0,
+            "ts": 1574120701856491,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "Variable_1/Adam_1"
+            },
+            "pid": 3,
+            "dur": 4
+        },
+        {
+            "name": "Assign",
+            "tid": 0,
+            "ts": 1574120701856496,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable_1/Adam_1/Assign",
+                "input1": "Variable_1/Adam/Initializer/zeros",
+                "input0": "Variable_1/Adam_1"
+            },
+            "pid": 3,
+            "dur": 95
+        },
+        {
+            "name": "Assign_inside",
+            "tid": 0,
+            "ts": 1574120701856496,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable_1/Adam_1/Assign",
+                "input1": "Variable_1/Adam/Initializer/zeros",
+                "input0": "Variable_1/Adam_1"
+            },
+            "pid": 3,
+            "dur": 93
+        },
+        {
+            "name": "VariableV2",
+            "tid": 0,
+            "ts": 1574120701856595,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "beta2_power"
+            },
+            "pid": 3,
+            "dur": 4
+        },
+        {
+            "name": "VariableV2_inside",
+            "tid": 0,
+            "ts": 1574120701856595,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "beta2_power"
+            },
+            "pid": 3,
+            "dur": 3
+        },
+        {
+            "name": "Assign",
+            "tid": 1,
+            "ts": 1574120701856599,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "beta2_power/Assign",
+                "input1": "beta2_power/initial_value",
+                "input0": "beta2_power"
+            },
+            "pid": 3,
+            "dur": 4
+        },
+        {
+            "name": "Assign_inside",
+            "tid": 1,
+            "ts": 1574120701856600,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "beta2_power/Assign",
+                "input1": "beta2_power/initial_value",
+                "input0": "beta2_power"
+            },
+            "pid": 3,
+            "dur": 2
+        },
+        {
+            "name": "beta2_power/initial_value",
+            "tid": 0,
+            "ts": 1574120701855466,
+            "ph": "s",
+            "cat": "DataFlow",
+            "pid": 3,
+            "id": 0
+        },
+        {
+            "name": "beta2_power/initial_value",
+            "tid": 1,
+            "ts": 1574120701856599,
+            "ph": "t",
+            "cat": "DataFlow",
+            "pid": 3,
+            "id": 0
+        },
+        {
+            "name": "VariableV2",
+            "tid": 0,
+            "ts": 1574120701856604,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "Variable_3"
+            },
+            "pid": 3,
+            "dur": 5
+        },
+        {
+            "name": "VariableV2_inside",
+            "tid": 0,
+            "ts": 1574120701856604,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "Variable_3"
+            },
+            "pid": 3,
+            "dur": 4
+        },
+        {
+            "name": "Assign",
+            "tid": 0,
+            "ts": 1574120701856610,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable_3/Assign",
+                "input1": "random_normal_3/mul",
+                "input0": "Variable_3"
+            },
+            "pid": 3,
+            "dur": 2
+        },
+        {
+            "name": "Assign_inside",
+            "tid": 0,
+            "ts": 1574120701856610,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable_3/Assign",
+                "input1": "random_normal_3/mul",
+                "input0": "Variable_3"
+            },
+            "pid": 3,
+            "dur": 0
+        },
+        {
+            "name": "VariableV2",
+            "tid": 1,
+            "ts": 1574120701856612,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "Variable"
+            },
+            "pid": 3,
+            "dur": 3
+        },
+        {
+            "name": "VariableV2_inside",
+            "tid": 1,
+            "ts": 1574120701856613,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "Variable"
+            },
+            "pid": 3,
+            "dur": 1
+        },
+        {
+            "name": "Assign",
+            "tid": 0,
+            "ts": 1574120701856616,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable/Assign",
+                "input1": "random_normal/mul",
+                "input0": "Variable"
+            },
+            "pid": 3,
+            "dur": 2
+        },
+        {
+            "name": "Assign_inside",
+            "tid": 0,
+            "ts": 1574120701856616,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable/Assign",
+                "input1": "random_normal/mul",
+                "input0": "Variable"
+            },
+            "pid": 3,
+            "dur": 1
+        },
+        {
+            "name": "VariableV2",
+            "tid": 0,
+            "ts": 1574120701856619,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "Variable_1/Adam"
+            },
+            "pid": 3,
+            "dur": 4
+        },
+        {
+            "name": "VariableV2_inside",
+            "tid": 0,
+            "ts": 1574120701856619,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "Variable_1/Adam"
+            },
+            "pid": 3,
+            "dur": 3
+        },
+        {
+            "name": "Assign",
+            "tid": 1,
+            "ts": 1574120701856623,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable_1/Adam/Assign",
+                "input1": "Variable_1/Adam/Initializer/zeros",
+                "input0": "Variable_1/Adam"
+            },
+            "pid": 3,
+            "dur": 94
+        },
+        {
+            "name": "Assign_inside",
+            "tid": 1,
+            "ts": 1574120701856623,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable_1/Adam/Assign",
+                "input1": "Variable_1/Adam/Initializer/zeros",
+                "input0": "Variable_1/Adam"
+            },
+            "pid": 3,
+            "dur": 91
+        },
+        {
+            "name": "Variable_1/Adam/Initializer/zeros",
+            "tid": 0,
+            "ts": 1574120701855451,
+            "ph": "s",
+            "cat": "DataFlow",
+            "pid": 3,
+            "id": 1
+        },
+        {
+            "name": "Variable_1/Adam/Initializer/zeros",
+            "tid": 1,
+            "ts": 1574120701856623,
+            "ph": "t",
+            "cat": "DataFlow",
+            "pid": 3,
+            "id": 1
+        },
+        {
+            "name": "VariableV2",
+            "tid": 0,
+            "ts": 1574120701856721,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "Variable/Adam_1"
+            },
+            "pid": 3,
+            "dur": 4
+        },
+        {
+            "name": "VariableV2_inside",
+            "tid": 0,
+            "ts": 1574120701856721,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "Variable/Adam_1"
+            },
+            "pid": 3,
+            "dur": 3
+        },
+        {
+            "name": "Assign",
+            "tid": 1,
+            "ts": 1574120701856725,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable/Adam_1/Assign",
+                "input1": "Variable/Adam/Initializer/zeros",
+                "input0": "Variable/Adam_1"
+            },
+            "pid": 3,
+            "dur": 193
+        },
+        {
+            "name": "Assign_inside",
+            "tid": 1,
+            "ts": 1574120701856726,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable/Adam_1/Assign",
+                "input1": "Variable/Adam/Initializer/zeros",
+                "input0": "Variable/Adam_1"
+            },
+            "pid": 3,
+            "dur": 188
+        },
+        {
+            "name": "Variable/Adam/Initializer/zeros",
+            "tid": 0,
+            "ts": 1574120701855448,
+            "ph": "s",
+            "cat": "DataFlow",
+            "pid": 3,
+            "id": 2
+        },
+        {
+            "name": "Variable/Adam/Initializer/zeros",
+            "tid": 1,
+            "ts": 1574120701856725,
+            "ph": "t",
+            "cat": "DataFlow",
+            "pid": 3,
+            "id": 2
+        },
+        {
+            "name": "VariableV2",
+            "tid": 0,
+            "ts": 1574120701856925,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "Variable_5/Adam_1"
+            },
+            "pid": 3,
+            "dur": 6
+        },
+        {
+            "name": "VariableV2_inside",
+            "tid": 0,
+            "ts": 1574120701856925,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "Variable_5/Adam_1"
+            },
+            "pid": 3,
+            "dur": 5
+        },
+        {
+            "name": "Assign",
+            "tid": 1,
+            "ts": 1574120701856931,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable_5/Adam_1/Assign",
+                "input1": "Variable_5/Adam_1/Initializer/zeros",
+                "input0": "Variable_5/Adam_1"
+            },
+            "pid": 3,
+            "dur": 5
+        },
+        {
+            "name": "Assign_inside",
+            "tid": 1,
+            "ts": 1574120701856932,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable_5/Adam_1/Assign",
+                "input1": "Variable_5/Adam_1/Initializer/zeros",
+                "input0": "Variable_5/Adam_1"
+            },
+            "pid": 3,
+            "dur": 2
+        },
+        {
+            "name": "VariableV2",
+            "tid": 0,
+            "ts": 1574120701856938,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "Variable_2"
+            },
+            "pid": 3,
+            "dur": 5
+        },
+        {
+            "name": "VariableV2_inside",
+            "tid": 0,
+            "ts": 1574120701856938,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "Variable_2"
+            },
+            "pid": 3,
+            "dur": 4
+        },
+        {
+            "name": "Assign",
+            "tid": 0,
+            "ts": 1574120701856944,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable_2/Assign",
+                "input1": "random_normal_2/mul",
+                "input0": "Variable_2"
+            },
+            "pid": 3,
+            "dur": 6
+        },
+        {
+            "name": "Assign_inside",
+            "tid": 0,
+            "ts": 1574120701856944,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable_2/Assign",
+                "input1": "random_normal_2/mul",
+                "input0": "Variable_2"
+            },
+            "pid": 3,
+            "dur": 5
+        },
+        {
+            "name": "VariableV2",
+            "tid": 0,
+            "ts": 1574120701856951,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "Variable_4/Adam_1"
+            },
+            "pid": 3,
+            "dur": 4
+        },
+        {
+            "name": "VariableV2_inside",
+            "tid": 0,
+            "ts": 1574120701856951,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "Variable_4/Adam_1"
+            },
+            "pid": 3,
+            "dur": 3
+        },
+        {
+            "name": "Assign",
+            "tid": 1,
+            "ts": 1574120701856955,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable_4/Adam_1/Assign",
+                "input1": "Variable_4/Adam/Initializer/zeros",
+                "input0": "Variable_4/Adam_1"
+            },
+            "pid": 3,
+            "dur": 4
+        },
+        {
+            "name": "Assign_inside",
+            "tid": 1,
+            "ts": 1574120701856955,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable_4/Adam_1/Assign",
+                "input1": "Variable_4/Adam/Initializer/zeros",
+                "input0": "Variable_4/Adam_1"
+            },
+            "pid": 3,
+            "dur": 3
+        },
+        {
+            "name": "Variable_4/Adam/Initializer/zeros",
+            "tid": 0,
+            "ts": 1574120701855476,
+            "ph": "s",
+            "cat": "DataFlow",
+            "pid": 3,
+            "id": 3
+        },
+        {
+            "name": "Variable_4/Adam/Initializer/zeros",
+            "tid": 1,
+            "ts": 1574120701856955,
+            "ph": "t",
+            "cat": "DataFlow",
+            "pid": 3,
+            "id": 3
+        },
+        {
+            "name": "VariableV2",
+            "tid": 0,
+            "ts": 1574120701856962,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "Variable_5"
+            },
+            "pid": 3,
+            "dur": 4
+        },
+        {
+            "name": "VariableV2_inside",
+            "tid": 0,
+            "ts": 1574120701856962,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "Variable_5"
+            },
+            "pid": 3,
+            "dur": 3
+        },
+        {
+            "name": "Assign",
+            "tid": 1,
+            "ts": 1574120701856966,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable_5/Assign",
+                "input1": "random_normal_5/mul",
+                "input0": "Variable_5"
+            },
+            "pid": 3,
+            "dur": 2
+        },
+        {
+            "name": "Assign_inside",
+            "tid": 1,
+            "ts": 1574120701856966,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable_5/Assign",
+                "input1": "random_normal_5/mul",
+                "input0": "Variable_5"
+            },
+            "pid": 3,
+            "dur": 1
+        },
+        {
+            "name": "random_normal_5/mul",
+            "tid": 0,
+            "ts": 1574120701856059,
+            "ph": "s",
+            "cat": "DataFlow",
+            "pid": 3,
+            "id": 4
+        },
+        {
+            "name": "random_normal_5/mul",
+            "tid": 1,
+            "ts": 1574120701856966,
+            "ph": "t",
+            "cat": "DataFlow",
+            "pid": 3,
+            "id": 4
+        },
+        {
+            "name": "VariableV2",
+            "tid": 0,
+            "ts": 1574120701856969,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "beta1_power"
+            },
+            "pid": 3,
+            "dur": 3
+        },
+        {
+            "name": "VariableV2_inside",
+            "tid": 0,
+            "ts": 1574120701856969,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "beta1_power"
+            },
+            "pid": 3,
+            "dur": 2
+        },
+        {
+            "name": "Assign",
+            "tid": 1,
+            "ts": 1574120701856972,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "beta1_power/Assign",
+                "input1": "beta1_power/initial_value",
+                "input0": "beta1_power"
+            },
+            "pid": 3,
+            "dur": 3
+        },
+        {
+            "name": "Assign_inside",
+            "tid": 1,
+            "ts": 1574120701856973,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "beta1_power/Assign",
+                "input1": "beta1_power/initial_value",
+                "input0": "beta1_power"
+            },
+            "pid": 3,
+            "dur": 1
+        },
+        {
+            "name": "beta1_power/initial_value",
+            "tid": 0,
+            "ts": 1574120701855457,
+            "ph": "s",
+            "cat": "DataFlow",
+            "pid": 3,
+            "id": 5
+        },
+        {
+            "name": "beta1_power/initial_value",
+            "tid": 1,
+            "ts": 1574120701856972,
+            "ph": "t",
+            "cat": "DataFlow",
+            "pid": 3,
+            "id": 5
+        },
+        {
+            "name": "VariableV2",
+            "tid": 0,
+            "ts": 1574120701856980,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "Variable_3/Adam_1"
+            },
+            "pid": 3,
+            "dur": 3
+        },
+        {
+            "name": "VariableV2_inside",
+            "tid": 0,
+            "ts": 1574120701856980,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "Variable_3/Adam_1"
+            },
+            "pid": 3,
+            "dur": 2
+        },
+        {
+            "name": "Assign",
+            "tid": 0,
+            "ts": 1574120701856984,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable_3/Adam_1/Assign",
+                "input1": "Variable_3/Adam/Initializer/zeros",
+                "input0": "Variable_3/Adam_1"
+            },
+            "pid": 3,
+            "dur": 3
+        },
+        {
+            "name": "Assign_inside",
+            "tid": 0,
+            "ts": 1574120701856984,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable_3/Adam_1/Assign",
+                "input1": "Variable_3/Adam/Initializer/zeros",
+                "input0": "Variable_3/Adam_1"
+            },
+            "pid": 3,
+            "dur": 2
+        },
+        {
+            "name": "VariableV2",
+            "tid": 0,
+            "ts": 1574120701856988,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "Variable_4/Adam"
+            },
+            "pid": 3,
+            "dur": 5
+        },
+        {
+            "name": "VariableV2_inside",
+            "tid": 0,
+            "ts": 1574120701856988,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "Variable_4/Adam"
+            },
+            "pid": 3,
+            "dur": 4
+        },
+        {
+            "name": "Assign",
+            "tid": 0,
+            "ts": 1574120701856994,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable_4/Adam/Assign",
+                "input1": "Variable_4/Adam/Initializer/zeros",
+                "input0": "Variable_4/Adam"
+            },
+            "pid": 3,
+            "dur": 3
+        },
+        {
+            "name": "Assign_inside",
+            "tid": 0,
+            "ts": 1574120701856994,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable_4/Adam/Assign",
+                "input1": "Variable_4/Adam/Initializer/zeros",
+                "input0": "Variable_4/Adam"
+            },
+            "pid": 3,
+            "dur": 2
+        },
+        {
+            "name": "VariableV2",
+            "tid": 0,
+            "ts": 1574120701856998,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "Variable_2/Adam_1"
+            },
+            "pid": 3,
+            "dur": 4
+        },
+        {
+            "name": "VariableV2_inside",
+            "tid": 0,
+            "ts": 1574120701856998,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "Variable_2/Adam_1"
+            },
+            "pid": 3,
+            "dur": 3
+        },
+        {
+            "name": "Assign",
+            "tid": 0,
+            "ts": 1574120701857005,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable_2/Adam_1/Assign",
+                "input1": "Variable_2/Adam_1/Initializer/zeros",
+                "input0": "Variable_2/Adam_1"
+            },
+            "pid": 3,
+            "dur": 14
+        },
+        {
+            "name": "Assign_inside",
+            "tid": 0,
+            "ts": 1574120701857005,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable_2/Adam_1/Assign",
+                "input1": "Variable_2/Adam_1/Initializer/zeros",
+                "input0": "Variable_2/Adam_1"
+            },
+            "pid": 3,
+            "dur": 12
+        },
+        {
+            "name": "VariableV2",
+            "tid": 0,
+            "ts": 1574120701857021,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "VariableV2",
+                "name": "Variable_5/Adam"
+            },
+            "pid": 3,
+            "dur": 3
+        },
+        {
+            "name": "Assign",
+            "tid": 0,
+            "ts": 1574120701857026,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable_5/Adam/Assign",
+                "input1": "Variable_5/Adam_1/Initializer/zeros",
+                "input0": "Variable_5/Adam"
+            },
+            "pid": 3,
+            "dur": 6
+        },
+        {
+            "name": "Assign_inside",
+            "tid": 0,
+            "ts": 1574120701857026,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "Assign",
+                "name": "Variable_5/Adam/Assign",
+                "input1": "Variable_5/Adam_1/Initializer/zeros",
+                "input0": "Variable_5/Adam"
+            },
+            "pid": 3,
+            "dur": 5
+        },
+        {
+            "name": "Variable_5/Adam_1/Initializer/zeros",
+            "tid": 1,
+            "ts": 1574120701855468,
+            "ph": "s",
+            "cat": "DataFlow",
+            "pid": 3,
+            "id": 6
+        },
+        {
+            "name": "Variable_5/Adam_1/Initializer/zeros",
+            "tid": 0,
+            "ts": 1574120701857026,
+            "ph": "t",
+            "cat": "DataFlow",
+            "pid": 3,
+            "id": 6
+        },
+        {
+            "name": "NoOp",
+            "tid": 0,
+            "ts": 1574120701857033,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "NoOp",
+                "input19": "^Variable_4/Assign",
+                "input2": "^Variable_1/Adam_1/Assign",
+                "input8": "^Variable_2/Adam_1/Assign",
+                "input3": "^Variable_5/Adam_1/Assign",
+                "input18": "^Variable_2/Assign",
+                "input10": "^Variable/Adam_1/Assign",
+                "input17": "^Variable_5/Assign",
+                "input12": "^Variable_4/Adam/Assign",
+                "input11": "^Variable_1/Assign",
+                "input15": "^Variable_4/Adam_1/Assign",
+                "input9": "^Variable_3/Assign",
+                "input0": "^Variable_1/Adam/Assign",
+                "input5": "^Variable/Assign",
+                "input14": "^Variable_2/Adam/Assign",
+                "input16": "^beta2_power/Assign",
+                "input6": "^Variable_3/Adam/Assign",
+                "input1": "^Variable_5/Adam/Assign",
+                "name": "init",
+                "input7": "^Variable_3/Adam_1/Assign",
+                "input4": "^Variable/Adam/Assign",
+                "input13": "^beta1_power/Assign"
+            },
+            "pid": 3,
+            "dur": 2
+        },
+        {
+            "name": "NoOp_inside",
+            "tid": 0,
+            "ts": 1574120701857033,
+            "ph": "X",
+            "cat": "Op",
+            "args": {
+                "op": "NoOp",
+                "input19": "^Variable_4/Assign",
+                "input2": "^Variable_1/Adam_1/Assign",
+                "input8": "^Variable_2/Adam_1/Assign",
+                "input3": "^Variable_5/Adam_1/Assign",
+                "input18": "^Variable_2/Assign",
+                "input10": "^Variable/Adam_1/Assign",
+                "input17": "^Variable_5/Assign",
+                "input12": "^Variable_4/Adam/Assign",
+                "input11": "^Variable_1/Assign",
+                "input15": "^Variable_4/Adam_1/Assign",
+                "input9": "^Variable_3/Assign",
+                "input0": "^Variable_1/Adam/Assign",
+                "input5": "^Variable/Assign",
+                "input14": "^Variable_2/Adam/Assign",
+                "input16": "^beta2_power/Assign",
+                "input6": "^Variable_3/Adam/Assign",
+                "input1": "^Variable_5/Adam/Assign",
+                "name": "init",
+                "input7": "^Variable_3/Adam_1/Assign",
+                "input4": "^Variable/Adam/Assign",
+                "input13": "^beta1_power/Assign"
+            },
+            "pid": 3,
+            "dur": 0
+        }
+    ]
+}
