@@ -36,8 +36,10 @@ with tf.Session() as sess:
     correct_pred = tf.equal(tf.argmax(prediction, 1), tf.argmax(YY, 1))
     accuracy = tf.reduce_mean(tf.cast(correct_pred, tf.float32))
     start_time = time.time()
-    print("Testing Accuracy:", \
-        sess.run(accuracy, feed_dict={XX: mnist.test.images,
-                                      YY: mnist.test.labels}))
+    CNT = 10
+    for i in range(CNT):
+        print("Testing Accuracy:", \
+            sess.run(accuracy, feed_dict={XX: mnist.test.images,
+                                          YY: mnist.test.labels}))
     t = time.time()
-    print("Duration: {} ms".format((t - start_time)*1000))
+    print("Duration: {} ms".format((t - start_time)/CNT*1000))
