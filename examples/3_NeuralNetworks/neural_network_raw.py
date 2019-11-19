@@ -19,8 +19,9 @@ mnist = input_data.read_data_sets("/tmp/data/", one_hot=True)
 
 import tensorflow as tf
 from tensorflow.python.client import timeline
+import time
 # Parameters
-learning_rate = 0.01
+learning_rate = 0.1
 num_steps = 2500
 batch_size = 128
 display_step = 100
@@ -77,12 +78,10 @@ init = tf.global_variables_initializer()
 
 # Start training
 with tf.Session() as sess:
-
     # Run the initializer
-    run_options = tf.RunOptions(trace_level=tf.RunOptions.FULL_TRACE)
-    run_metadata = tf.RunMetadata()
-    sess.run(init, options = run_options, run_metadata=run_metadata)
-
+    
+    sess.run(init)
+    start_time = time.time()
     for step in range(1, num_steps+1):
         batch_x, batch_y = mnist.train.next_batch(batch_size)
         # Run optimization op (backprop)
@@ -91,17 +90,18 @@ with tf.Session() as sess:
             # Calculate batch loss and accuracy
             loss, acc = sess.run([loss_op, accuracy], feed_dict={X: batch_x,
                                                                  Y: batch_y})
-            print("Step " + str(step) + ", Minibatch Loss= " + \
+            t = time.time()
+            print("Step " + str(step) + ", average processing time for each frame" + str((t-start_time)*1000 / step) +" ms, Minibatch Loss= " + \
                   "{:.4f}".format(loss) + ", Training Accuracy= " + \
-                  "{:.3f}".format(acc))
+                  "{:.3f}".format(acc) )
 
     print("Optimization Finished!")
 
-    tl = timeline.Timeline(run_metadata.step_stats)
-    ctf = tl.generate_chrome_trace_format()
-    with open('nn_raw_timeline.json', 'w') as f:
-        f.write(ctf)
-    # Calculate accuracy for MNIST test images
+    #tl = timeline.Timeline(run_metadata.step_stats)
+    #ctf = tl.generate_chrome_trace_format()
+    #with open('nn_raw_timeline.json', 'w') as f:
+    #    f.write(ctf)
+    ## Calculate accuracy for MNIST test images
     print("Testing Accuracy:", \
         sess.run(accuracy, feed_dict={X: mnist.test.images,
                                       Y: mnist.test.labels}))
