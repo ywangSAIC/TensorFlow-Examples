@@ -33,8 +33,8 @@ num_input = 784 # MNIST data input (img shape: 28*28)
 num_classes = 10 # MNIST total classes (0-9 digits)
 
 # tf Graph input
-X = tf.placeholder("float", [None, num_input])
-Y = tf.placeholder("float", [None, num_classes])
+X = tf.placeholder("float", [None, num_input] , name='X')
+Y = tf.placeholder("float", [None, num_classes], name='Y')
 
 # Store layers weight & bias
 weights = {
@@ -56,7 +56,7 @@ def neural_net(x):
     # Hidden fully connected layer with 256 neurons
     layer_2 = tf.add(tf.matmul(layer_1, weights['h2']), biases['b2'])
     # Output fully connected layer with a neuron for each class
-    out_layer = tf.matmul(layer_2, weights['out']) + biases['out']
+    out_layer = tf.add(tf.matmul(layer_2, weights['out']), biases['out'], name="network")
     return out_layer
 
 # Construct model
@@ -72,7 +72,7 @@ train_op = optimizer.minimize(loss_op)
 # Evaluate model
 correct_pred = tf.equal(tf.argmax(prediction, 1), tf.argmax(Y, 1))
 accuracy = tf.reduce_mean(tf.cast(correct_pred, tf.float32))
-
+saver = tf.train.Saver()
 # Initialize the variables (i.e. assign their default value)
 init = tf.global_variables_initializer()
 
@@ -102,6 +102,7 @@ with tf.Session() as sess:
     #with open('nn_raw_timeline.json', 'w') as f:
     #    f.write(ctf)
     ## Calculate accuracy for MNIST test images
+    saver.save(sess,"my_test_model")
     print("Testing Accuracy:", \
         sess.run(accuracy, feed_dict={X: mnist.test.images,
                                       Y: mnist.test.labels}))
