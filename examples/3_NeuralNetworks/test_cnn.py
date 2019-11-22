@@ -41,10 +41,11 @@ with tf.Session() as sess:
     total_time = 0
     for i in range(CNT):
         start_time = time.time()
-        sess.run(prediction, feed_dict={XX: mnist.test.images,
+        acc = sess.run(accuracy, feed_dict={XX: mnist.test.images,
+                                      YY: mnist.test.labels,
                                       keep_prob: 1.0})
         t = time.time()
-        print("Duration {} ms i = {}".format((t - start_time)*1000,i))
+        print("Duration {} ms i = {}, accuracy {}".format((t - start_time)*1000,i,acc))
         total_time += (t-start_time)*1000
 
     print("aveage duration {} ms".format((total_time)/CNT))
