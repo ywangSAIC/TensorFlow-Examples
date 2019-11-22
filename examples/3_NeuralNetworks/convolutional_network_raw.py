@@ -28,9 +28,9 @@ num_classes = 10 # MNIST total classes (0-9 digits)
 dropout = 0.75 # Dropout, probability to keep units
 
 # tf Graph input
-X = tf.placeholder(tf.float32, [None, num_input])
-Y = tf.placeholder(tf.float32, [None, num_classes])
-keep_prob = tf.placeholder(tf.float32) # dropout (keep probability)
+X = tf.placeholder(tf.float32, [None, num_input]  , name='X')
+Y = tf.placeholder(tf.float32, [None, num_classes], name='Y')
+keep_prob = tf.placeholder(tf.float32, name="keep_prob") # dropout (keep probability)
 
 
 # Create some wrappers for simplicity
@@ -73,7 +73,7 @@ def conv_net(x, weights, biases, dropout):
     fc1 = tf.nn.dropout(fc1, dropout)
 
     # Output, class prediction
-    out = tf.add(tf.matmul(fc1, weights['out']), biases['out'])
+    out = tf.add(tf.matmul(fc1, weights['out']), biases['out'], name="network")
     return out
 
 # Store layers weight & bias
@@ -110,6 +110,7 @@ train_op = optimizer.minimize(loss_op)
 correct_pred = tf.equal(tf.argmax(prediction, 1), tf.argmax(Y, 1))
 accuracy = tf.reduce_mean(tf.cast(correct_pred, tf.float32))
 
+saver = tf.train.Saver()
 # Initialize the variables (i.e. assign their default value)
 init = tf.global_variables_initializer()
 
@@ -134,6 +135,7 @@ with tf.Session() as sess:
 
     print("Optimization Finished!")
 
+    saver.save(sess,"cnn_model")
     # Calculate accuracy for 256 MNIST test images
     print("Testing Accuracy:", \
         sess.run(accuracy, feed_dict={X: mnist.test.images[:256],
