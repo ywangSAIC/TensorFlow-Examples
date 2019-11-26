@@ -37,6 +37,9 @@ with tf.Session() as sess:
     prediction = tf.nn.softmax(logits)
     correct_pred = tf.equal(tf.argmax(prediction, 1), tf.argmax(YY, 1))
     accuracy = tf.reduce_mean(tf.cast(correct_pred, tf.float32))
+    acc = sess.run(accuracy, feed_dict={XX: mnist.test.images,
+                                      YY: mnist.test.labels,
+                                      keep_prob: 1.0})
     CNT = 10
     total_time = 0
     for i in range(CNT):
